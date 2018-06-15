@@ -1,16 +1,3 @@
- // var ipfs = new IpfsApi('ipfs.infura.io', '5001', {protocol: 'http'});
- // ipfs.swarm.peers(function(err, response) {
- //            if (err) {
- //                console.error(err);
- //            } else {
- //                console.log("IPFS - connected to " + response.Strings.length + " peers");
- //                console.log(response);
- //            }
- //        });
-// run with local daemon
-// const ipfsApi = require(‘ipfs-api’);
-// const ipfs = new ipfsApi(‘localhost’, ‘5001’, {protocol:‘http’});
-
  if (typeof web3 !== 'undefined') {
             web3 = new Web3(web3.currentProvider);
         } else {
